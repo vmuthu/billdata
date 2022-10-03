@@ -1,14 +1,320 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cardiovascular drugs"
+    },
+    {
+      "id": 2,
+      "name": "Vitamins & Supplements"
+    },
+    {
+      "id": 3,
+      "name": "Immunity Boosters"
+    },
+    {
+      "id": 4,
+      "name": "Diabetic Medicines"
+    },
+    {
+      "id": 5,
+      "name": "Liver Care"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "products": [
+    {
+      "id": 1,
+      "categoryid": 1,
+      "name": "Dr. Reckeweg R85 High Blood Pressure Drop",
+      "unit": "bot",
+      "manufacturer": "1",
+      "hsn": "30049014",
+      "description": "Helps regulate blood pressure levels, Aids in glandular stimulation, Reduces viscosity of the blood"
+    },
+    {
+      "id": 2,
+      "categoryid": 1,
+      "name": "Dabur Lipistat Capsule",
+      "unit": "strip10",
+      "manufacturer": "2",
+      "hsn": "30142141",
+      "description": "Effective in reducing high cholesterol level, Helps in controlling increases HDL levels in the blood, Helps in reducing triglycerides and LDL"
+    },
+    {
+      "id": 3,
+      "categoryid": 2,
+      "name": "Tata 1mg Salmon Omega 3 Fish Oil Capsule",
+      "unit": "bottle",
+      "manufacturer": "3",
+      "hsn": "30028014",
+      "description": "1mg Salmon Omega 3 Fish Oil Capsule 100 tablets bottle"
+    },
+    {
+      "id": 4,
+      "categoryid": 2,
+      "name": "Pure Nutrition Cod Liver Oil Softgel",
+      "unit": "bottle",
+      "manufacturer": "4",
+      "hsn": "30019011",
+      "description": "Pure Nutrition Cod Liver Oil Softgel 1 bottle with 50 tablets"
+    },
+    {
+      "id": 5,
+      "categoryid": 3,
+      "name": "Carbamide Forte Multivitamin with Probiotics & Ashwagandha Tablet",
+      "unit": "bottle",
+      "manufacturer": "5",
+      "hsn": "30039014",
+      "description": "Get a stronger, healthier, and energised body"
+    },
+    {
+      "id": 6,
+      "categoryid": 3,
+      "name": "Dhootapapeshwar Madhumeha Kusumakar Rasa",
+      "unit": "strip10",
+      "manufacturer": "6",
+      "hsn": "30039011",
+      "description": "Dhootapapeshwar Madhumeha Kusumakar Rasa tablets are a combination of potent ingredients that can be useful for managing diabetes and its related complications. It helps regulate blood sugar levels"
+    },
+    {
+      "id": 7,
+      "categoryid": 4,
+      "name": "Baidyanath Basant Kusumakar Ras (S.C.M.Yu) with Gold, Silver & Pearl Maintains Blood Glucose Level",
+      "unit": "bottle",
+      "manufacturer": "7",
+      "hsn": "30039015",
+      "description": "Baidyanath Kumariasava Liquid bottle of 450 ml Liquid"
+    },
+    {
+      "id": 8,
+      "categoryid": 4,
+      "name": "Baidyanath Mahayograj Guggulu Tablet",
+      "unit": "bottle",
+      "manufacturer": "7",
+      "hsn": "30039011",
+      "description": "Helps in weight management"
+    },
+    {
+      "id": 9,
+      "categoryid": 5,
+      "name": "Baidyanath Kumariasava Liquid",
+      "unit": "bottle",
+      "manufacturer": "7",
+      "hsn": "30039010",
+      "description": "Baidyanath Kumariasava Liquid bottle of 450 ml Liquid"
+    },
+    {
+      "id": 10,
+      "categoryid": 5,
+      "name": "Carbamide Forte Milk Thistle Extract 600mg Vegetarian Tablet",
+      "unit": "bottle",
+      "manufacturer": "8",
+      "hsn": "19022090",
+      "description": "Baidyanath Kumariasava Liquid bottle of 450 ml Liquid"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+  "suppliers": [
+    {
+      "id": "1",
+      "name": "Premium Medicare",
+      "gst": "24CHJLE4744A1ZI",
+      "address": "123/37, Sareshbagh",
+      "city": "Solan",
+      "country": "India"
+    },
+    {
+      "id": "2",
+      "name": "Pharma Art",
+      "gst": "21bHJLE4744A2ZX",
+      "address": "31, Industrial Estate",
+      "city": "Birbaum",
+      "country": "India"
+    },
+    {
+      "id": "3",
+      "name": "Optimum Healthcare",
+      "gst": "34BCJLE4744A1JU",
+      "address": "27A/132, Sector 4",
+      "city": "Chandigarh",
+      "country": "India"
+    },
+    {
+      "id": "4",
+      "name": "Quick Health Remedies",
+      "gst": "14ABJLE4744A1BD",
+      "address": "35, Connaught Circle",
+      "city": "New Delhi",
+      "country": "India"
+    },
+    {
+      "id": "5",
+      "name": "Diligent Health Solutions",
+      "gst": "17CHJKU4641B1SI",
+      "address": "Bajrang Road, Baramathi",
+      "city": "Mumbai",
+      "country": "India"
+    },
+    {
+      "id": "6",
+      "name": "Marigold Industries",
+      "gst": "24WYULE4744A1ZI",
+      "address": "8 Bhudhar, NH21A, Bhaddi",
+      "city": "Sultanpur",
+      "country": "India"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "PurchaseInvoiceNo": "PINV-0001",
+      "PurchaseInvoiceDate": "2022-09-22",
+      "SupplierInvoiceNo": "SINV-0001",
+      "Supplier": "1",
+      "Total": "42000",
+      "items": [
+        {
+          "id": 1,
+          "price": 200,
+          "quantity": 10
+        },
+        {
+          "id": 2,
+          "price": 500,
+          "quantity": 12
+        },
+        {
+          "id": 3,
+          "price": 120,
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "PurchaseInvoiceNo": "PINV-0002",
+      "PurchaseInvoiceDate": "2022-09-24",
+      "SupplierInvoiceNo": "SINV-0002",
+      "Supplier": "2",
+      "Total": "42000",
+      "items": [
+        {
+          "id": 3,
+          "price": 225,
+          "quantity": 8
+        },
+        {
+          "id": 4,
+          "price": 300,
+          "quantity": 20
+        },
+        {
+          "id": 5,
+          "price": 250,
+          "quantity": 16
+        }
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "Optiplus Medicare",
+      "gst": "22CHJLE4744A1ZI",
+      "address": "3/21, Sareshbagh",
+      "city": "Solan",
+      "country": "India"
+    },
+    {
+      "id": "2",
+      "name": "Artistic Medicals",
+      "gst": "25bHJLE4744A2ZX",
+      "address": "91, Industrial Estate",
+      "city": "Birbaum",
+      "country": "India"
+    },
+    {
+      "id": "3",
+      "name": "Ganesha Healthcare",
+      "gst": "33BCJLE4744A1JU",
+      "address": "12C, Sector 14",
+      "city": "Chandigarh",
+      "country": "India"
+    },
+    {
+      "id": "4",
+      "name": "Sethuraman Remedies",
+      "gst": "18ABJLE4744A1BD",
+      "address": "35, Carical Circle",
+      "city": "New Delhi",
+      "country": "India"
+    },
+    {
+      "id": "5",
+      "name": "Vaidhya Health Solutions",
+      "gst": "11CHJKU4641B1SI",
+      "address": "Bijlee Road, Baramathi",
+      "city": "Mumbai",
+      "country": "India"
+    },
+    {
+      "id": "6",
+      "name": "Sanjeevni Industries",
+      "gst": "19WYULE4744A1ZI",
+      "address": "8 Burcox, NH21A, Bhaddi",
+      "city": "Sultanpur",
+      "country": "India"
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "InvoiceNo": "INV-0001",
+      "InvoiceDate": "2022-09-18",
+      "PONo": "PINV-0001",
+      "Customer": "1",
+      "Total": "42000",
+      "items": [
+        {
+          "id": 1,
+          "price": 200,
+          "quantity": 10
+        },
+        {
+          "id": 2,
+          "price": 500,
+          "quantity": 12
+        },
+        {
+          "id": 3,
+          "price": 120,
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "InvoiceNo": "INV-0002",
+      "InvoiceDate": "2022-09-20",
+      "PONo": "PINV-0001",
+      "Customer": "1",
+      "Total": "42000",
+      "items": [
+        {
+          "id": 3,
+          "price": 225,
+          "quantity": 8
+        },
+        {
+          "id": 4,
+          "price": 300,
+          "quantity": 20
+        },
+        {
+          "id": 5,
+          "price": 250,
+          "quantity": 16
+        }
+      ]
+    }
+  ]
+ }
