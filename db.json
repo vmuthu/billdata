@@ -113,56 +113,6 @@
       "description": "Baidyanath Kumariasava Liquid bottle of 450 ml Liquid"
     }
   ],
-  "suppliers": [
-    {
-      "id": "1",
-      "name": "Premium Medicare",
-      "gst": "24CHJLE4744A1ZI",
-      "address": "123/37, Sareshbagh",
-      "city": "Solan",
-      "country": "India"
-    },
-    {
-      "id": "2",
-      "name": "Pharma Art",
-      "gst": "21bHJLE4744A2ZX",
-      "address": "31, Industrial Estate",
-      "city": "Birbaum",
-      "country": "India"
-    },
-    {
-      "id": "3",
-      "name": "Optimum Healthcare",
-      "gst": "34BCJLE4744A1JU",
-      "address": "27A/132, Sector 4",
-      "city": "Chandigarh",
-      "country": "India"
-    },
-    {
-      "id": "4",
-      "name": "Quick Health Remedies",
-      "gst": "14ABJLE4744A1BD",
-      "address": "35, Connaught Circle",
-      "city": "New Delhi",
-      "country": "India"
-    },
-    {
-      "id": "5",
-      "name": "Diligent Health Solutions",
-      "gst": "17CHJKU4641B1SI",
-      "address": "Bajrang Road, Baramathi",
-      "city": "Mumbai",
-      "country": "India"
-    },
-    {
-      "id": "6",
-      "name": "Marigold Industries",
-      "gst": "24WYULE4744A1ZI",
-      "address": "8 Bhudhar, NH21A, Bhaddi",
-      "city": "Sultanpur",
-      "country": "India"
-    }
-  ],
   "purchases": [
     {
       "id": 1,
